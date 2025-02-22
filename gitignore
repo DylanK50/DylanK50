@@ -1,0 +1,7 @@
+touch .gitignore
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
+echo ".env" >> .gitignore  # If using environment variables
+git add .gitignore
+git commit -m "Add .gitignore"
+git push origin main
