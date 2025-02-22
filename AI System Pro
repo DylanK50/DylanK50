@@ -1,0 +1,23 @@
+# Navigate to your project folder (if you haven't already)
+cd /path/to/your/project
+
+# Initialize a new Git repository
+git init
+
+# Create a README file
+echo "# DylanK50" >> README.md
+
+# Add all files to the staging area
+git add .
+
+# Commit your changes
+git commit -m "first commit"
+
+# Rename the default branch to main
+git branch -M main
+
+# Link your local repo to the remote GitHub repository
+git remote add origin https://github.com/DylanK50/DylanK50.git
+
+# Push your code to GitHub
+git push -u origin main
